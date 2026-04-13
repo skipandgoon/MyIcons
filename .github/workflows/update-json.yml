@@ -1,5 +1,5 @@
-name: Update Icons JSON
-run: |
+- name: Generate JSON
+  run: |
     mkdir -p icons
     echo "{" > icons.json
     echo "  \"name\": \"MyIcons\"," >> icons.json
