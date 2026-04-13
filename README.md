@@ -4,7 +4,7 @@
 
 TV&Radio：https://github.com/skipandgoon/live
 
-PT：https://github.com/verkyer/xg-icons-hub
+NAS&PT：https://github.com/verkyer/xg-icons-hub
 
 Emby：https://github.com/lige47/QuanX-icon-rule
 
