@@ -7,6 +7,9 @@ on:
       - 'icons/**'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,9 +17,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth:0
 
-      - name: 生成 icons.json
+      - name: Generate icons.json
         run: |
           mkdir -p icons
           echo "{" > icons.json
@@ -26,7 +29,7 @@ jobs:
           first=1
           find icons -type f | sort | while read -r file; do
             filename=$(basename "$file")
-            filepath="${file#./}"  # 相对路径，如 icons/home/index.svg
+            filepath="${file#./}"
             url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
 
             if [ $first -eq 1 ]; then
@@ -35,18 +38,14 @@ jobs:
               echo "," >> icons.json
             fi
 
-            echo "    {" >> icons.json
-            echo "      \"name\": \"${filename}\"," >> icons.json
-            echo "      \"path\": \"${filepath}\"," >> icons.json
-            echo "      \"url\": \"${url}\"" >> icons.json
-            echo "    }" >> icons.json
+            echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
           done
 
           echo "]}" >> icons.json
 
-      - name: 提交更新
+      - name: Commit & Push
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Auto update icons.json (递归子文件夹)'
+          message: 'Auto update icons.json'
           committer_name: GitHub Actions
           committer_email: actions@github.com
