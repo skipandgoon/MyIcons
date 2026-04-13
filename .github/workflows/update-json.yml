@@ -1,8 +1,8 @@
 name: Update Icons JSON
 
-on:
+于:
   push:
-    branches: [main]
+    分支: [main]
     paths:
       - 'icons/**'
   workflow_dispatch:
@@ -44,7 +44,8 @@ jobs:
             if [ -z "$file" ]; then
               continue
             fi
-            filename=$(basename "$file")
+            full_filename=$(basename "$file")
+            filename="${full_filename%.*}" 
             filepath="${file#./}"
             url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
             
