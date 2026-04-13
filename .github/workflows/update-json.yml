@@ -1,0 +1,52 @@
+name: Update Icons JSON (支持子文件夹)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'icons/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 生成 icons.json
+        run: |
+          mkdir -p icons
+          echo "{" > icons.json
+          echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
+          echo "  \"icons\": [" >> icons.json
+
+          first=1
+          find icons -type f | sort | while read -r file; do
+            filename=$(basename "$file")
+            filepath="${file#./}"  # 相对路径，如 icons/home/index.svg
+            url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
+
+            if [ $first -eq 1 ]; then
+              first=0
+            else
+              echo "," >> icons.json
+            fi
+
+            echo "    {" >> icons.json
+            echo "      \"name\": \"${filename}\"," >> icons.json
+            echo "      \"path\": \"${filepath}\"," >> icons.json
+            echo "      \"url\": \"${url}\"" >> icons.json
+            echo "    }" >> icons.json
+          done
+
+          echo "]}" >> icons.json
+
+      - name: 提交更新
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Auto update icons.json (递归子文件夹)'
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
