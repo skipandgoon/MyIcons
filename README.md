@@ -2,7 +2,7 @@
 
 参考整理来源：
 
-TV&Radio：https://github.com/skipandgoon/live
+TV&Radio：https://github.com/fanmingming/live
 
 NAS&PT：https://github.com/verkyer/xg-icons-hub
 
