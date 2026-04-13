@@ -21,55 +21,72 @@ jobs:
       - name: Generate JSON
         run: |
           mkdir -p icons
-          exec 3> icons.json
-
-          # 正确输出 JSON 头部
-          echo "{" >&3
-          echo "  \"name\": \"MyIcons\"," >&3
-          echo "  \"count\": $(find icons -type f | wc -l)," >&3
-          echo "  \"icons\": [" >&3
-
+          TMP=$(mktemp)
+          
+          # 先生成所有图标数据
           first=1
           fixed_dirs=("NAS" "PT" "Emby" "TV" "Radio")
-
+          
           # 固定顺序
           for dir in "${fixed_dirs[@]}"; do
-            find "icons/$dir" -type f 2>/dev/null | sort | while read -r file; do
+            find "icons/$dir" -type f 2>/dev/null | sort | while read file; do
               name=$(basename "$file")
-              path="$file"
+              path=$file
               url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-
-              if [ "$first" = 1 ]; then
+              if [ $first -eq 1 ]; then
                 first=0
+                jq -n \
+                  --arg name "$name" \
+                  --arg path "$path" \
+                  --arg url "$url" \
+                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
               else
-                echo "," >&3
+                echo "," >> $TMP
+                jq -n \
+                  --arg name "$name" \
+                  --arg path "$path" \
+                  --arg url "$url" \
+                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
               fi
-
-              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >&3
             done
           done
-
-          # 其他文件夹按字母排序
+          
+          # 其他文件夹按字母
           ls -d icons/*/ 2>/dev/null | grep -vE -w "NAS|PT|Emby|TV|Radio" | sort | while read dir; do
-            find "$dir" -type f | sort | while read -r file; do
+            find "$dir" -type f | sort | while read file; do
               name=$(basename "$file")
-              path="$file"
+              path=$file
               url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-
-              if [ "$first" = 1 ]; then
+              if [ $first -eq 1 ]; then
                 first=0
+                jq -n \
+                  --arg name "$name" \
+                  --arg path "$path" \
+                  --arg url "$url" \
+                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
               else
-                echo "," >&3
+                echo "," >> $TMP
+                jq -n \
+                  --arg name "$name" \
+                  --arg path "$path" \
+                  --arg url "$url" \
+                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
               fi
-
-              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >&3
             done
           done
-
-          # 正确关闭 JSON
-          echo "  ]" >&3
-          echo "}" >&3
-          exec 3>&-
+          
+          # 生成最终合法 JSON
+          cat > icons.json << EOF
+          {
+            "name": "MyIcons",
+            "count": $(find icons -type f | wc -l),
+            "icons": [
+              $(cat $TMP)
+            ]
+          }
+          EOF
+          
+          rm -f $TMP
 
       - name: Commit
         uses: EndBug/add-and-commit@v9
