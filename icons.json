@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 1789,
+  "count": 1790,
   "icons": [
     {"name":"Alpine.png","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -69,6 +69,8 @@
     {"name":"iKuai.png","path":"icons/NAS/iKuai.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/iKuai.png"}
 ,
     {"name":"iStoreOS.png","path":"icons/NAS/iStoreOS.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/iStoreOS.png"}
+,
+    {"name":"AGSV.png","path":"icons/PT/AGSV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/AGSV.png"}
 ,
     {"name":"1111(2)-emby.png","path":"icons/Emby/1111(2)-emby.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Emby/1111(2)-emby.png"}
 ,
