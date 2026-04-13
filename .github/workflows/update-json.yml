@@ -1,8 +1,7 @@
-name: Update Icons JSON (支持子文件夹)
-
+name: Update Icons JSON
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - 'icons/**'
   workflow_dispatch:
@@ -13,18 +12,15 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Generate icons.json
+      - name: Generate JSON
         run: |
           mkdir -p icons
           echo "{" > icons.json
+          echo "  \"name\": \"MyIcons\"," >> icons.json
           echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
           echo "  \"icons\": [" >> icons.json
 
@@ -45,9 +41,7 @@ jobs:
 
           echo "]}" >> icons.json
 
-      - name: Commit & Push
+      - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Auto update icons.json'
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
+          message: "Auto update icons.json"
