@@ -57,7 +57,8 @@ jobs:
             echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
           done < "$tmp_file"
           
-          echo "]" >> icons.json
+          echo "  ]" >> icons.json
+          echo "}" >> icons.json
           rm -f "$tmp_file"
 
       - name: Commit
