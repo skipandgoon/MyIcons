@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 强制 Node24，彻底消除警告
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,37 +21,55 @@ jobs:
       - name: Generate JSON
         run: |
           mkdir -p icons
-          echo "{" > icons.json
-          echo "  \"name\": \"MyIcons\"," >> icons.json
-          echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
-          echo "  \"icons\": [" >> icons.json
+          exec 3> icons.json
+
+          # 正确输出 JSON 头部
+          echo "{" >&3
+          echo "  \"name\": \"MyIcons\"," >&3
+          echo "  \"count\": $(find icons -type f | wc -l)," >&3
+          echo "  \"icons\": [" >&3
 
           first=1
           fixed_dirs=("NAS" "PT" "Emby" "TV" "Radio")
 
-          # 1. 先输出固定顺序文件夹
+          # 固定顺序
           for dir in "${fixed_dirs[@]}"; do
-            find icons/$dir -type f 2>/dev/null | sort | while read file; do
+            find "icons/$dir" -type f 2>/dev/null | sort | while read -r file; do
               name=$(basename "$file")
-              path=$file
+              path="$file"
               url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-              if [ $first -eq 1 ]; then first=0; else echo "," >> icons.json; fi
-              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >> icons.json
+
+              if [ "$first" = 1 ]; then
+                first=0
+              else
+                echo "," >&3
+              fi
+
+              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >&3
             done
           done
 
-          # 2. 剩下文件夹按字母顺序输出
+          # 其他文件夹按字母排序
           ls -d icons/*/ 2>/dev/null | grep -vE -w "NAS|PT|Emby|TV|Radio" | sort | while read dir; do
-            find $dir -type f | sort | while read file; do
+            find "$dir" -type f | sort | while read -r file; do
               name=$(basename "$file")
-              path=$file
+              path="$file"
               url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-              if [ $first -eq 1 ]; then first=0; else echo "," >> icons.json; fi
-              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >> icons.json
+
+              if [ "$first" = 1 ]; then
+                first=0
+              else
+                echo "," >&3
+              fi
+
+              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >&3
             done
           done
 
-          echo "]}" >> icons.json
+          # 正确关闭 JSON
+          echo "  ]" >&3
+          echo "}" >&3
+          exec 3>&-
 
       - name: Commit
         uses: EndBug/add-and-commit@v9
