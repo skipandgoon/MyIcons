@@ -734,8 +734,6 @@
 ,
     {"name":"M-Team.png","path":"icons/PT/M-Team.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/M-Team.png"}
 ,
-    {"name":"Nvme.png","path":"icons/PT/Nvme.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/Nvme.png"}
-,
     {"name":"OpenCD.png","path":"icons/PT/OpenCD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/OpenCD.png"}
 ,
     {"name":"OurBits.png","path":"icons/PT/OurBits.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/OurBits.png"}
@@ -745,6 +743,8 @@
     {"name":"PTTime.png","path":"icons/PT/PTTime.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/PTTime.png"}
 ,
     {"name":"Pter.png","path":"icons/PT/Pter.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/Pter.png"}
+,
+    {"name":"SSD.png","path":"icons/PT/SSD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/SSD.png"}
 ,
     {"name":"TTG.png","path":"icons/PT/TTG.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/TTG.png"}
 ,
