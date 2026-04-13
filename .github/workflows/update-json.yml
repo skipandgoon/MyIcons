@@ -1,70 +1,55 @@
-name: Update Icons JSON
-
-on:
-  push:
-    branches: [main]
-    paths:
-      - 'icons/**'
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate JSON
-        run: |
-          mkdir -p icons
-          echo "{" > icons.json
-          echo "  \"name\": \"MyIcons\"," >> icons.json
-          echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
-          echo "  \"icons\": [" >> icons.json
-          
-          # 定义优先顺序
-          priority_order="NAS PT Emby"
-          
-          # 获取所有目录（一级子目录）
-          all_dirs=$(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
-          
-          # 合并顺序：先优先目录，再其他目录（去重）
-          ordered_dirs=""
-          for p in $priority_order; do
-            if echo "$all_dirs" | grep -qx "$p"; then
-              ordered_dirs="$ordered_dirs $p"
-            fi
-          done
-          for d in $all_dirs; do
-            if ! echo "$priority_order" | grep -qw "$d"; then
-              ordered_dirs="$ordered_dirs $d"
-            fi
-          done
-          
-          first=1
-          for dir in $ordered_dirs; do
-            # 使用 process substitution 避免子 shell 问题
-            while read -r file; do
-              filename=$(basename "$file")
-              filepath="${file#./}"
-              url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
-              
-              if [ $first -eq 1 ]; then
-                first=0
-              else
-                echo "," >> icons.json
-              fi
-              
-              echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
-            done < <(find "icons/$dir" -maxdepth 1 -type f | sort)
-          done
-          
-          echo "]" >> icons.json
-
-      - name: Commit
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Auto update icons.json"
+- name: Generate JSON
+  run: |
+    mkdir -p icons
+    echo "{" > icons.json
+    echo "  \"name\": \"MyIcons\"," >> icons.json
+    echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
+    echo "  \"icons\": [" >> icons.json
+    
+    # 定义优先顺序
+    priority_order="NAS PT Emby"
+    
+    # 获取所有目录（一级子目录）
+    all_dirs=$(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
+    
+    # 合并顺序：先优先目录，再其他目录（去重）
+    ordered_dirs=""
+    for p in $priority_order; do
+      if echo "$all_dirs" | grep -qx "$p"; then
+        ordered_dirs="$ordered_dirs $p"
+      fi
+    done
+    for d in $all_dirs; do
+      if ! echo "$priority_order" | grep -qw "$d"; then
+        ordered_dirs="$ordered_dirs $d"
+      fi
+    done
+    
+    # 先收集所有文件到数组
+    files_list=""
+    for dir in $ordered_dirs; do
+      while read -r file; do
+        if [ -n "$files_list" ]; then
+          files_list="$files_list"$'\n'
+        fi
+        files_list="$files_list$file"
+      done < <(find "icons/$dir" -maxdepth 1 -type f | sort)
+    done
+    
+    # 输出 JSON
+    first=1
+    echo "$files_list" | while IFS= read -r file; do
+      filename=$(basename "$file")
+      filepath="${file#./}"
+      url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
+      
+      if [ $first -eq 1 ]; then
+        first=0
+      else
+        echo "," >> icons.json
+      fi
+      
+      echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
+    done
+    
+    echo "]" >> icons.json
