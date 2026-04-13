@@ -25,18 +25,38 @@ jobs:
           echo "  \"icons\": [" >> icons.json
 
           first=1
-          find icons -type f | sort | while read -r file; do
-            filename=$(basename "$file")
-            filepath="${file#./}"
-            url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
 
-            if [ $first -eq 1 ]; then
-              first=0
-            else
-              echo "," >> icons.json
-            fi
+          # 固定优先顺序
+          fixed_dirs=("NAS" "PT" "Emby" "TV" "Radio")
 
-            echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
+          # 先输出固定顺序的文件夹
+          for dir in "${fixed_dirs[@]}"; do
+            find icons/$dir -type f 2>/dev/null | sort | while read file; do
+              name=$(basename "$file")
+              path=$file
+              url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
+              if [ $first -eq 1 ]; then
+                first=0
+              else
+                echo "," >> icons.json
+              fi
+              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >> icons.json
+            done
+          done
+
+          # 剩下的文件夹按字母顺序输出（排除已固定的）
+          ls -d icons/*/ 2>/dev/null | grep -vE -w "NAS|PT|Emby|TV|Radio" | sort | while read dir; do
+            find $dir -type f | sort | while read file; do
+              name=$(basename "$file")
+              path=$file
+              url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
+              if [ $first -eq 1 ]; then
+                first=0
+              else
+                echo "," >> icons.json
+              fi
+              echo "    {\"name\":\"$name\",\"path\":\"$path\",\"url\":\"$url\"}" >> icons.json
+            done
           done
 
           echo "]}" >> icons.json
@@ -44,4 +64,4 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Auto update icons.json"
+          message: "Auto update icons.json (fixed order + alphabetical)"
