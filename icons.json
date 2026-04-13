@@ -70,6 +70,8 @@
 ,
     {"name":"iStoreOS.png","path":"icons/NAS/iStoreOS.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/iStoreOS.png"}
 ,
+    {"name":"AGSV.png","path":"icons/PT/AGSV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/AGSV.png"}
+,
     {"name":"Afun.png","path":"icons/PT/Afun.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/Afun.png"}
 ,
     {"name":"Audiences.png","path":"icons/PT/Audiences.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/Audiences.png"}
@@ -123,8 +125,6 @@
     {"name":"TTG.png","path":"icons/PT/TTG.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/TTG.png"}
 ,
     {"name":"UBits.png","path":"icons/PT/UBits.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/UBits.png"}
-,
-    {"name":"agsv.png","path":"icons/PT/agsv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/agsv.png"}
 ,
     {"name":"btschool.png","path":"icons/PT/btschool.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/btschool.png"}
 ,
