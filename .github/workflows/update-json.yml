@@ -1,8 +1,8 @@
 name: Update Icons JSON
 
-于:
+on:
   push:
-    分支: [main]
+    branches: [main]
     paths:
       - 'icons/**'
   workflow_dispatch:
