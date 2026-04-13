@@ -12,8 +12,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,72 +19,27 @@ jobs:
       - name: Generate JSON
         run: |
           mkdir -p icons
-          TMP=$(mktemp)
-          
-          # 先生成所有图标数据
+          echo "{" > icons.json
+          echo "  \"name\": \"MyIcons\"," >> icons.json
+          echo "  \"count\": $(find icons -type f | wc -l)," >> icons.json
+          echo "  \"icons\": [" >> icons.json
+
           first=1
-          fixed_dirs=("NAS" "PT" "Emby" "TV" "Radio")
-          
-          # 固定顺序
-          for dir in "${fixed_dirs[@]}"; do
-            find "icons/$dir" -type f 2>/dev/null | sort | while read file; do
-              name=$(basename "$file")
-              path=$file
-              url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-              if [ $first -eq 1 ]; then
-                first=0
-                jq -n \
-                  --arg name "$name" \
-                  --arg path "$path" \
-                  --arg url "$url" \
-                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
-              else
-                echo "," >> $TMP
-                jq -n \
-                  --arg name "$name" \
-                  --arg path "$path" \
-                  --arg url "$url" \
-                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
-              fi
-            done
+          find icons -type f | sort | while read -r file; do
+            filename=$(basename "$file")
+            filepath="${file#./}"
+            url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/${filepath}"
+
+            if [ $first -eq 1 ]; then
+              first=0
+            else
+              echo "," >> icons.json
+            fi
+
+            echo "    {\"name\":\"${filename}\",\"path\":\"${filepath}\",\"url\":\"${url}\"}" >> icons.json
           done
-          
-          # 其他文件夹按字母
-          ls -d icons/*/ 2>/dev/null | grep -vE -w "NAS|PT|Emby|TV|Radio" | sort | while read dir; do
-            find "$dir" -type f | sort | while read file; do
-              name=$(basename "$file")
-              path=$file
-              url="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}/$path"
-              if [ $first -eq 1 ]; then
-                first=0
-                jq -n \
-                  --arg name "$name" \
-                  --arg path "$path" \
-                  --arg url "$url" \
-                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
-              else
-                echo "," >> $TMP
-                jq -n \
-                  --arg name "$name" \
-                  --arg path "$path" \
-                  --arg url "$url" \
-                  '{"name":$name,"path":$path,"url":$url}' >> $TMP
-              fi
-            done
-          done
-          
-          # 生成最终合法 JSON
-          cat > icons.json << EOF
-          {
-            "name": "MyIcons",
-            "count": $(find icons -type f | wc -l),
-            "icons": [
-              $(cat $TMP)
-            ]
-          }
-          EOF
-          
-          rm -f $TMP
+
+          echo "]}" >> icons.json
 
       - name: Commit
         uses: EndBug/add-and-commit@v9
