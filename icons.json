@@ -2236,61 +2236,59 @@
 ,
     {"name":"CBN幸福剧场","path":"icons/TV/CBN幸福剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CBN幸福剧场.png"}
 ,
-    {"name":"CCTV-1","path":"icons/TV/CCTV-1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-1.png"}
+    {"name":"CCTV-10科教","path":"icons/TV/CCTV-10科教.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-10科教.png"}
 ,
-    {"name":"CCTV-10","path":"icons/TV/CCTV-10.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-10.png"}
+    {"name":"CCTV-11戏曲","path":"icons/TV/CCTV-11戏曲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-11戏曲.png"}
 ,
-    {"name":"CCTV-11","path":"icons/TV/CCTV-11.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-11.png"}
+    {"name":"CCTV-12社会与法","path":"icons/TV/CCTV-12社会与法.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-12社会与法.png"}
 ,
-    {"name":"CCTV-12","path":"icons/TV/CCTV-12.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-12.png"}
+    {"name":"CCTV-13新闻","path":"icons/TV/CCTV-13新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-13新闻.png"}
 ,
-    {"name":"CCTV-13","path":"icons/TV/CCTV-13.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-13.png"}
+    {"name":"CCTV-14少儿","path":"icons/TV/CCTV-14少儿.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-14少儿.png"}
 ,
-    {"name":"CCTV-14","path":"icons/TV/CCTV-14.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-14.png"}
+    {"name":"CCTV-15音乐","path":"icons/TV/CCTV-15音乐.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-15音乐.png"}
 ,
-    {"name":"CCTV-15","path":"icons/TV/CCTV-15.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-15.png"}
+    {"name":"CCTV-16奥林匹克","path":"icons/TV/CCTV-16奥林匹克.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-16奥林匹克.png"}
 ,
-    {"name":"CCTV-16","path":"icons/TV/CCTV-16.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-16.png"}
+    {"name":"CCTV-17农业农村","path":"icons/TV/CCTV-17农业农村.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-17农业农村.png"}
 ,
-    {"name":"CCTV-17","path":"icons/TV/CCTV-17.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-17.png"}
+    {"name":"CCTV-1综合","path":"icons/TV/CCTV-1综合.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-1综合.png"}
 ,
-    {"name":"CCTV-2","path":"icons/TV/CCTV-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-2.png"}
+    {"name":"CCTV-2财经","path":"icons/TV/CCTV-2财经.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-2财经.png"}
 ,
-    {"name":"CCTV-3","path":"icons/TV/CCTV-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-3.png"}
+    {"name":"CCTV-3综艺","path":"icons/TV/CCTV-3综艺.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-3综艺.png"}
 ,
-    {"name":"CCTV-4","path":"icons/TV/CCTV-4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4.png"}
+    {"name":"CCTV-4K超高清","path":"icons/TV/CCTV-4K超高清.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4K超高清.png"}
+,
+    {"name":"CCTV-4中文国际","path":"icons/TV/CCTV-4中文国际.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4中文国际.png"}
 ,
     {"name":"CCTV-4欧洲","path":"icons/TV/CCTV-4欧洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4欧洲.png"}
 ,
     {"name":"CCTV-4美洲","path":"icons/TV/CCTV-4美洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4美洲.png"}
 ,
-    {"name":"CCTV-5+","path":"icons/TV/CCTV-5+.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5+.png"}
+    {"name":"CCTV-5+体育赛事","path":"icons/TV/CCTV-5+体育赛事.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5+体育赛事.png"}
 ,
-    {"name":"CCTV-5","path":"icons/TV/CCTV-5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5.png"}
+    {"name":"CCTV-5体育","path":"icons/TV/CCTV-5体育.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5体育.png"}
 ,
-    {"name":"CCTV-6","path":"icons/TV/CCTV-6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-6.png"}
+    {"name":"CCTV-6电影","path":"icons/TV/CCTV-6电影.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-6电影.png"}
 ,
-    {"name":"CCTV-7","path":"icons/TV/CCTV-7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-7.png"}
-,
-    {"name":"CCTV-8","path":"icons/TV/CCTV-8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-8.png"}
+    {"name":"CCTV-7国防军事","path":"icons/TV/CCTV-7国防军事.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-7国防军事.png"}
 ,
     {"name":"CCTV-8K","path":"icons/TV/CCTV-8K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-8K.png"}
 ,
-    {"name":"CCTV-9","path":"icons/TV/CCTV-9.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-9.png"}
+    {"name":"CCTV-8电视剧","path":"icons/TV/CCTV-8电视剧.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-8电视剧.png"}
+,
+    {"name":"CCTV-9纪录","path":"icons/TV/CCTV-9纪录.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-9纪录.png"}
 ,
     {"name":"CCTV3D","path":"icons/TV/CCTV3D.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV3D.png"}
 ,
-    {"name":"CCTV4K","path":"icons/TV/CCTV4K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV4K.png"}
+    {"name":"CETV-1","path":"icons/TV/CETV-1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV-1.png"}
 ,
-    {"name":"CETV1","path":"icons/TV/CETV1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV1.png"}
+    {"name":"CETV-2","path":"icons/TV/CETV-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV-2.png"}
 ,
-    {"name":"CETV2","path":"icons/TV/CETV2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV2.png"}
+    {"name":"CETV-3","path":"icons/TV/CETV-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV-3.png"}
 ,
-    {"name":"CETV3","path":"icons/TV/CETV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV3.png"}
-,
-    {"name":"CETV4","path":"icons/TV/CETV4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV4.png"}
-,
-    {"name":"CGTN","path":"icons/TV/CGTN.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN.png"}
+    {"name":"CETV-4","path":"icons/TV/CETV-4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV-4.png"}
 ,
     {"name":"CGTNDoc","path":"icons/TV/CGTNDoc.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTNDoc.png"}
 ,
@@ -2299,6 +2297,8 @@
     {"name":"CGTN法语","path":"icons/TV/CGTN法语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN法语.png"}
 ,
     {"name":"CGTN纪录","path":"icons/TV/CGTN纪录.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN纪录.png"}
+,
+    {"name":"CGTN英语","path":"icons/TV/CGTN英语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN英语.png"}
 ,
     {"name":"CGTN西语","path":"icons/TV/CGTN西语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN西语.png"}
 ,
@@ -3092,7 +3092,7 @@
 ,
     {"name":"上海第一财经","path":"icons/TV/上海第一财经.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上海第一财经.png"}
 ,
-    {"name":"上海都市","path":"icons/TV/上海都市.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上海都市.png"}
+    {"name":"上海都市剧场","path":"icons/TV/上海都市剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上海都市剧场.png"}
 ,
     {"name":"上视新闻","path":"icons/TV/上视新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上视新闻.png"}
 ,
@@ -3246,7 +3246,7 @@
 ,
     {"name":"北京卫视","path":"icons/TV/北京卫视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/北京卫视.png"}
 ,
-    {"name":"北京卫视4K","path":"icons/TV/北京卫视4K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/北京卫视4K.png"}
+    {"name":"北京卫视4K超高清","path":"icons/TV/北京卫视4K超高清.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/北京卫视4K超高清.png"}
 ,
     {"name":"北京影视","path":"icons/TV/北京影视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/北京影视.png"}
 ,
@@ -3670,7 +3670,7 @@
 ,
     {"name":"河南新闻","path":"icons/TV/河南新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/河南新闻.png"}
 ,
-    {"name":"河南梨园","path":"icons/TV/河南梨园.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/河南梨园.png"}
+    {"name":"河南梨园频道","path":"icons/TV/河南梨园频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/河南梨园频道.png"}
 ,
     {"name":"河南民生","path":"icons/TV/河南民生.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/河南民生.png"}
 ,
@@ -3748,21 +3748,21 @@
 ,
     {"name":"湖南卫视","path":"icons/TV/湖南卫视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南卫视.png"}
 ,
-    {"name":"湖南国际","path":"icons/TV/湖南国际.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南国际.png"}
+    {"name":"湖南国际频道","path":"icons/TV/湖南国际频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南国际频道.png"}
 ,
-    {"name":"湖南娱乐","path":"icons/TV/湖南娱乐.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南娱乐.png"}
+    {"name":"湖南娱乐频道","path":"icons/TV/湖南娱乐频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南娱乐频道.png"}
 ,
-    {"name":"湖南教育","path":"icons/TV/湖南教育.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南教育.png"}
+    {"name":"湖南教育台","path":"icons/TV/湖南教育台.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南教育台.png"}
 ,
     {"name":"湖南爱晚","path":"icons/TV/湖南爱晚.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南爱晚.png"}
 ,
-    {"name":"湖南电影","path":"icons/TV/湖南电影.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南电影.png"}
+    {"name":"湖南电影频道","path":"icons/TV/湖南电影频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南电影频道.png"}
 ,
-    {"name":"湖南电视剧","path":"icons/TV/湖南电视剧.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南电视剧.png"}
+    {"name":"湖南电视剧频道","path":"icons/TV/湖南电视剧频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南电视剧频道.png"}
 ,
-    {"name":"湖南经视","path":"icons/TV/湖南经视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南经视.png"}
+    {"name":"湖南经视频道","path":"icons/TV/湖南经视频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南经视频道.png"}
 ,
-    {"name":"湖南都市","path":"icons/TV/湖南都市.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南都市.png"}
+    {"name":"湖南都市频道","path":"icons/TV/湖南都市频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南都市频道.png"}
 ,
     {"name":"湖南金鹰卡通","path":"icons/TV/湖南金鹰卡通.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/湖南金鹰卡通.png"}
 ,
@@ -3864,7 +3864,7 @@
 ,
     {"name":"苏州4K","path":"icons/TV/苏州4K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/苏州4K.png"}
 ,
-    {"name":"茶","path":"icons/TV/茶.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/茶.png"}
+    {"name":"茶频道","path":"icons/TV/茶频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/茶频道.png"}
 ,
     {"name":"莆田新闻","path":"icons/TV/莆田新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/莆田新闻.png"}
 ,
