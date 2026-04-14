@@ -1,8 +1,8 @@
 name: Update Icons JSON
 
-on:
+于:
   push:
-    branches: [main]
+    分支: [main]
     paths:
       - 'icons/**'
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
           tmp_file=$(mktemp)
           
           # 按顺序处理目录
-          for dir in NAS PT Emby $(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort | grep -v -E "^(NAS|PT|Emby)$"); do
+          for dir in NAS PT Docker Emby $(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort | grep -v -E "^(NAS|PT|Emby)$"); do
             if [ -d "icons/$dir" ]; then
               find "icons/$dir" -maxdepth 1 -type f | sort | while read -r file; do
                 echo "$file" >> "$tmp_file"
