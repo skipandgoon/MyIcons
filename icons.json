@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 1845,
+  "count": 1846,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -895,6 +895,8 @@
     {"name":"zox(2)-emby","path":"icons/Emby/zox(2)-emby.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Emby/zox(2)-emby.png"}
 ,
     {"name":"zox-emby","path":"icons/Emby/zox-emby.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Emby/zox-emby.png"}
+,
+    {"name":"Alist","path":"icons/Docker/Alist.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Alist.png"}
 ,
     {"name":"8fm","path":"icons/Radio/8fm.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Radio/8fm.png"}
 ,
