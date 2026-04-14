@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 1846,
+  "count": 1940,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -896,7 +896,195 @@
 ,
     {"name":"zox-emby","path":"icons/Emby/zox-emby.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Emby/zox-emby.png"}
 ,
+    {"name":"1panel-2","path":"icons/Docker/1panel-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/1panel-2.png"}
+,
+    {"name":"1panel-Pro","path":"icons/Docker/1panel-Pro.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/1panel-Pro.png"}
+,
+    {"name":"1panel","path":"icons/Docker/1panel.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/1panel.png"}
+,
+    {"name":"AdguardHome","path":"icons/Docker/AdguardHome.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/AdguardHome.png"}
+,
     {"name":"Alist","path":"icons/Docker/Alist.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Alist.png"}
+,
+    {"name":"Apache","path":"icons/Docker/Apache.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Apache.png"}
+,
+    {"name":"Aria2","path":"icons/Docker/Aria2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Aria2.png"}
+,
+    {"name":"Bitwarden","path":"icons/Docker/Bitwarden.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Bitwarden.png"}
+,
+    {"name":"Chrome","path":"icons/Docker/Chrome.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Chrome.png"}
+,
+    {"name":"CloudDrive","path":"icons/Docker/CloudDrive.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/CloudDrive.png"}
+,
+    {"name":"DDNSTO","path":"icons/Docker/DDNSTO.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/DDNSTO.png"}
+,
+    {"name":"DPanel","path":"icons/Docker/DPanel.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/DPanel.png"}
+,
+    {"name":"DockerCopilot-2","path":"icons/Docker/DockerCopilot-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/DockerCopilot-2.png"}
+,
+    {"name":"DockerCopilot-3","path":"icons/Docker/DockerCopilot-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/DockerCopilot-3.png"}
+,
+    {"name":"DockerCopilot","path":"icons/Docker/DockerCopilot.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/DockerCopilot.png"}
+,
+    {"name":"Dockge","path":"icons/Docker/Dockge.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Dockge.png"}
+,
+    {"name":"Draw","path":"icons/Docker/Draw.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Draw.png"}
+,
+    {"name":"Emby","path":"icons/Docker/Emby.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Emby.png"}
+,
+    {"name":"Excalidraw","path":"icons/Docker/Excalidraw.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Excalidraw.png"}
+,
+    {"name":"FileBrowser","path":"icons/Docker/FileBrowser.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/FileBrowser.png"}
+,
+    {"name":"Flarum","path":"icons/Docker/Flarum.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Flarum.png"}
+,
+    {"name":"Gitea","path":"icons/Docker/Gitea.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Gitea.png"}
+,
+    {"name":"Grafana","path":"icons/Docker/Grafana.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Grafana.png"}
+,
+    {"name":"HivisionIDPhotos","path":"icons/Docker/HivisionIDPhotos.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/HivisionIDPhotos.png"}
+,
+    {"name":"HomeAssistant","path":"icons/Docker/HomeAssistant.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/HomeAssistant.png"}
+,
+    {"name":"HomePage","path":"icons/Docker/HomePage.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/HomePage.png"}
+,
+    {"name":"IYUU-2","path":"icons/Docker/IYUU-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/IYUU-2.png"}
+,
+    {"name":"IYUU","path":"icons/Docker/IYUU.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/IYUU.png"}
+,
+    {"name":"Jackett","path":"icons/Docker/Jackett.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Jackett.png"}
+,
+    {"name":"Jellyfin","path":"icons/Docker/Jellyfin.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Jellyfin.png"}
+,
+    {"name":"KMS","path":"icons/Docker/KMS.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/KMS.png"}
+,
+    {"name":"KSpeeder","path":"icons/Docker/KSpeeder.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/KSpeeder.png"}
+,
+    {"name":"KodBox","path":"icons/Docker/KodBox.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/KodBox.png"}
+,
+    {"name":"Komari","path":"icons/Docker/Komari.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Komari.png"}
+,
+    {"name":"Lucky","path":"icons/Docker/Lucky.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Lucky.png"}
+,
+    {"name":"Lychee","path":"icons/Docker/Lychee.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Lychee.png"}
+,
+    {"name":"MT-Photos","path":"icons/Docker/MT-Photos.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MT-Photos.png"}
+,
+    {"name":"MariaDB","path":"icons/Docker/MariaDB.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MariaDB.png"}
+,
+    {"name":"MaxKB","path":"icons/Docker/MaxKB.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MaxKB.png"}
+,
+    {"name":"MediaSaber","path":"icons/Docker/MediaSaber.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MediaSaber.png"}
+,
+    {"name":"Memos","path":"icons/Docker/Memos.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Memos.png"}
+,
+    {"name":"MinIO","path":"icons/Docker/MinIO.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MinIO.png"}
+,
+    {"name":"MoviePilot","path":"icons/Docker/MoviePilot.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MoviePilot.png"}
+,
+    {"name":"MySQL","path":"icons/Docker/MySQL.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/MySQL.png"}
+,
+    {"name":"NAStool-2","path":"icons/Docker/NAStool-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/NAStool-2.png"}
+,
+    {"name":"NAStool","path":"icons/Docker/NAStool.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/NAStool.png"}
+,
+    {"name":"NPM","path":"icons/Docker/NPM.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/NPM.png"}
+,
+    {"name":"Navidrome","path":"icons/Docker/Navidrome.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Navidrome.png"}
+,
+    {"name":"Nextcloud","path":"icons/Docker/Nextcloud.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Nextcloud.png"}
+,
+    {"name":"Nginx-2","path":"icons/Docker/Nginx-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Nginx-2.png"}
+,
+    {"name":"Nginx","path":"icons/Docker/Nginx.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Nginx.png"}
+,
+    {"name":"Node.js","path":"icons/Docker/Node.js.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Node.js.png"}
+,
+    {"name":"OpenList","path":"icons/Docker/OpenList.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/OpenList.png"}
+,
+    {"name":"PHP","path":"icons/Docker/PHP.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/PHP.png"}
+,
+    {"name":"Plex-2","path":"icons/Docker/Plex-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Plex-2.png"}
+,
+    {"name":"Plex","path":"icons/Docker/Plex.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Plex.png"}
+,
+    {"name":"PostgreSQL","path":"icons/Docker/PostgreSQL.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/PostgreSQL.png"}
+,
+    {"name":"Python","path":"icons/Docker/Python.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Python.png"}
+,
+    {"name":"QD","path":"icons/Docker/QD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/QD.png"}
+,
+    {"name":"QingLong","path":"icons/Docker/QingLong.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/QingLong.png"}
+,
+    {"name":"RustDesk","path":"icons/Docker/RustDesk.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/RustDesk.png"}
+,
+    {"name":"SiYuan","path":"icons/Docker/SiYuan.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/SiYuan.png"}
+,
+    {"name":"Sorayomi","path":"icons/Docker/Sorayomi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Sorayomi.png"}
+,
+    {"name":"Stirling-PDF","path":"icons/Docker/Stirling-PDF.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Stirling-PDF.png"}
+,
+    {"name":"Sun-Panel","path":"icons/Docker/Sun-Panel.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Sun-Panel.png"}
+,
+    {"name":"Tailscale","path":"icons/Docker/Tailscale.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Tailscale.png"}
+,
+    {"name":"Transmission","path":"icons/Docker/Transmission.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Transmission.png"}
+,
+    {"name":"Typecho","path":"icons/Docker/Typecho.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Typecho.png"}
+,
+    {"name":"UPage","path":"icons/Docker/UPage.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/UPage.png"}
+,
+    {"name":"UpSnap","path":"icons/Docker/UpSnap.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/UpSnap.png"}
+,
+    {"name":"UptimeKuma","path":"icons/Docker/UptimeKuma.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/UptimeKuma.png"}
+,
+    {"name":"Vaultwarden","path":"icons/Docker/Vaultwarden.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Vaultwarden.png"}
+,
+    {"name":"Vertex","path":"icons/Docker/Vertex.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Vertex.png"}
+,
+    {"name":"Wallos","path":"icons/Docker/Wallos.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Wallos.png"}
+,
+    {"name":"Wiki","path":"icons/Docker/Wiki.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Wiki.png"}
+,
+    {"name":"Wol","path":"icons/Docker/Wol.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/Wol.png"}
+,
+    {"name":"WordPress-2","path":"icons/Docker/WordPress-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/WordPress-2.png"}
+,
+    {"name":"WordPress-3","path":"icons/Docker/WordPress-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/WordPress-3.png"}
+,
+    {"name":"WordPress","path":"icons/Docker/WordPress.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/WordPress.png"}
+,
+    {"name":"XunLei","path":"icons/Docker/XunLei.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/XunLei.png"}
+,
+    {"name":"cookiecloud","path":"icons/Docker/cookiecloud.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/cookiecloud.png"}
+,
+    {"name":"ddnsgo","path":"icons/Docker/ddnsgo.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/ddnsgo.png"}
+,
+    {"name":"dnsmgr","path":"icons/Docker/dnsmgr.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/dnsmgr.png"}
+,
+    {"name":"dos-lol","path":"icons/Docker/dos-lol.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/dos-lol.png"}
+,
+    {"name":"flare","path":"icons/Docker/flare.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/flare.png"}
+,
+    {"name":"frpc","path":"icons/Docker/frpc.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/frpc.png"}
+,
+    {"name":"ftps","path":"icons/Docker/ftps.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/ftps.png"}
+,
+    {"name":"halo","path":"icons/Docker/halo.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/halo.png"}
+,
+    {"name":"heimdall","path":"icons/Docker/heimdall.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/heimdall.png"}
+,
+    {"name":"immich","path":"icons/Docker/immich.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/immich.png"}
+,
+    {"name":"phpMyAdmin-2","path":"icons/Docker/phpMyAdmin-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/phpMyAdmin-2.png"}
+,
+    {"name":"phpMyAdmin","path":"icons/Docker/phpMyAdmin.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/phpMyAdmin.png"}
+,
+    {"name":"qBittorrent","path":"icons/Docker/qBittorrent.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/qBittorrent.png"}
+,
+    {"name":"tachidesk","path":"icons/Docker/tachidesk.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/tachidesk.png"}
+,
+    {"name":"wxchat","path":"icons/Docker/wxchat.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Docker/wxchat.png"}
 ,
     {"name":"8fm","path":"icons/Radio/8fm.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/Radio/8fm.png"}
 ,
