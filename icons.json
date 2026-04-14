@@ -2236,51 +2236,51 @@
 ,
     {"name":"CBN幸福剧场","path":"icons/TV/CBN幸福剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CBN幸福剧场.png"}
 ,
-    {"name":"CCTV1","path":"icons/TV/CCTV1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV1.png"}
+    {"name":"CCTV-1","path":"icons/TV/CCTV-1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-1.png"}
 ,
-    {"name":"CCTV10","path":"icons/TV/CCTV10.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV10.png"}
+    {"name":"CCTV-10","path":"icons/TV/CCTV-10.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-10.png"}
 ,
-    {"name":"CCTV11","path":"icons/TV/CCTV11.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV11.png"}
+    {"name":"CCTV-11","path":"icons/TV/CCTV-11.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-11.png"}
 ,
-    {"name":"CCTV12","path":"icons/TV/CCTV12.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV12.png"}
+    {"name":"CCTV-12","path":"icons/TV/CCTV-12.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-12.png"}
 ,
-    {"name":"CCTV13","path":"icons/TV/CCTV13.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV13.png"}
+    {"name":"CCTV-13","path":"icons/TV/CCTV-13.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-13.png"}
 ,
-    {"name":"CCTV14","path":"icons/TV/CCTV14.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV14.png"}
+    {"name":"CCTV-14","path":"icons/TV/CCTV-14.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-14.png"}
 ,
-    {"name":"CCTV15","path":"icons/TV/CCTV15.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV15.png"}
+    {"name":"CCTV-15","path":"icons/TV/CCTV-15.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-15.png"}
 ,
-    {"name":"CCTV16","path":"icons/TV/CCTV16.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV16.png"}
+    {"name":"CCTV-16","path":"icons/TV/CCTV-16.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-16.png"}
 ,
-    {"name":"CCTV17","path":"icons/TV/CCTV17.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV17.png"}
+    {"name":"CCTV-17","path":"icons/TV/CCTV-17.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-17.png"}
 ,
-    {"name":"CCTV2","path":"icons/TV/CCTV2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV2.png"}
+    {"name":"CCTV-2","path":"icons/TV/CCTV-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-2.png"}
 ,
-    {"name":"CCTV3","path":"icons/TV/CCTV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV3.png"}
+    {"name":"CCTV-3","path":"icons/TV/CCTV-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-3.png"}
+,
+    {"name":"CCTV-4","path":"icons/TV/CCTV-4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4.png"}
+,
+    {"name":"CCTV-4欧洲","path":"icons/TV/CCTV-4欧洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4欧洲.png"}
+,
+    {"name":"CCTV-4美洲","path":"icons/TV/CCTV-4美洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-4美洲.png"}
+,
+    {"name":"CCTV-5+","path":"icons/TV/CCTV-5+.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5+.png"}
+,
+    {"name":"CCTV-5","path":"icons/TV/CCTV-5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-5.png"}
+,
+    {"name":"CCTV-6","path":"icons/TV/CCTV-6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-6.png"}
+,
+    {"name":"CCTV-7","path":"icons/TV/CCTV-7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-7.png"}
+,
+    {"name":"CCTV-8","path":"icons/TV/CCTV-8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-8.png"}
+,
+    {"name":"CCTV-8K","path":"icons/TV/CCTV-8K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-8K.png"}
+,
+    {"name":"CCTV-9","path":"icons/TV/CCTV-9.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV-9.png"}
 ,
     {"name":"CCTV3D","path":"icons/TV/CCTV3D.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV3D.png"}
 ,
-    {"name":"CCTV4","path":"icons/TV/CCTV4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV4.png"}
-,
     {"name":"CCTV4K","path":"icons/TV/CCTV4K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV4K.png"}
-,
-    {"name":"CCTV4欧洲","path":"icons/TV/CCTV4欧洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV4欧洲.png"}
-,
-    {"name":"CCTV4美洲","path":"icons/TV/CCTV4美洲.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV4美洲.png"}
-,
-    {"name":"CCTV5+","path":"icons/TV/CCTV5+.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV5+.png"}
-,
-    {"name":"CCTV5","path":"icons/TV/CCTV5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV5.png"}
-,
-    {"name":"CCTV6","path":"icons/TV/CCTV6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV6.png"}
-,
-    {"name":"CCTV7","path":"icons/TV/CCTV7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV7.png"}
-,
-    {"name":"CCTV8","path":"icons/TV/CCTV8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV8.png"}
-,
-    {"name":"CCTV8K","path":"icons/TV/CCTV8K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV8K.png"}
-,
-    {"name":"CCTV9","path":"icons/TV/CCTV9.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CCTV9.png"}
 ,
     {"name":"CETV1","path":"icons/TV/CETV1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV1.png"}
 ,
