@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2035,
+  "count": 2036,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -3797,6 +3797,8 @@
     {"name":"电竞","path":"icons/TV/电竞.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/电竞.png"}
 ,
     {"name":"电竞天堂","path":"icons/TV/电竞天堂.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/电竞天堂.png"}
+,
+    {"name":"电视tv","path":"icons/TV/电视tv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/电视tv.png"}
 ,
     {"name":"电视指南","path":"icons/TV/电视指南.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/电视指南.png"}
 ,
