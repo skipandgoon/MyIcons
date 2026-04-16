@@ -62,24 +62,21 @@ jobs:
           rm -f "$tmp_file"
 
       # ===========================
-      # 【完美支持子文件夹 + 拼音排序】
-      # 生成 tubiao.json
+      # 【修复数字排序】1,2,3,4...10
       # ===========================
       - name: Generate tubiao.json
         run: |
           tmp_file=$(mktemp)
           
-          # 先获取所有子文件夹 → 按拼音排序
           if [ -d "tubiao" ]; then
-            folders=$(find tubiao -mindepth 1 -maxdepth 1 -type d | sort)
+            # 关键修复：sort -n 按数字排序
+            folders=$(find tubiao -mindepth 1 -maxdepth 1 -type d | sort -n)
             
-            # 按拼音顺序遍历每个子文件夹，读取文件
             for folder in $folders; do
-              find "$folder" -type f | sort >> "$tmp_file"
+              find "$folder" -type f | sort -n >> "$tmp_file"
             done
             
-            # 再把 tubiao 根目录文件加进去
-            find tubiao -maxdepth 1 -type f | sort >> "$tmp_file"
+            find tubiao -maxdepth 1 -type f | sort -n >> "$tmp_file"
           fi
 
           echo "{" > tubiao.json
