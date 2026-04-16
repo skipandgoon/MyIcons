@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2214,
+  "count": 2215,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -2519,6 +2519,8 @@
     {"name":"IHOT爱院线","path":"icons/TV/IHOT爱院线.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/IHOT爱院线.png"}
 ,
     {"name":"IHOT爱青春","path":"icons/TV/IHOT爱青春.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/IHOT爱青春.png"}
+,
+    {"name":"IPTV-API","path":"icons/TV/IPTV-API.svg","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/IPTV-API.svg"}
 ,
     {"name":"IPTV3+","path":"icons/TV/IPTV3+.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/IPTV3+.png"}
 ,
