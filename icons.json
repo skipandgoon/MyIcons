@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2215,
+  "count": 2214,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -3675,8 +3675,6 @@
     {"name":"怀旧剧场","path":"icons/TV/怀旧剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/怀旧剧场.png"}
 ,
     {"name":"慈利新闻综合","path":"icons/TV/慈利新闻综合.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/慈利新闻综合.png"}
-,
-    {"name":"成都体育","path":"icons/TV/成都体育.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/成都体育.png"}
 ,
     {"name":"成都公共","path":"icons/TV/成都公共.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/成都公共.png"}
 ,
