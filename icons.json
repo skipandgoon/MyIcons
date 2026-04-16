@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2308,
+  "count": 2296,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -2180,12 +2180,6 @@
 ,
     {"name":"DOXTV高清","path":"icons/TV/DOXTV高清.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOXTV高清.png"}
 ,
-    {"name":"DOX-CINEMA","path":"icons/TV/DOX-CINEMA.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOX-CINEMA.png"}
-,
-    {"name":"DOX_YAQU","path":"icons/TV/DOX_YAQU.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOX_YAQU.png"}
-,
-    {"name":"DOX_xinzhi","path":"icons/TV/DOX_xinzhi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOX_xinzhi.png"}
-,
     {"name":"DOX剧场","path":"icons/TV/DOX剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOX剧场.png"}
 ,
     {"name":"DOX怡家","path":"icons/TV/DOX怡家.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/DOX怡家.png"}
@@ -2680,16 +2674,6 @@
 ,
     {"name":"dongnan","path":"icons/TV/dongnan.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dongnan.png"}
 ,
-    {"name":"doxyinghua","path":"icons/TV/doxyinghua.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/doxyinghua.png"}
-,
-    {"name":"dox_juchang","path":"icons/TV/dox_juchang.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dox_juchang.png"}
-,
-    {"name":"dox_xinyi","path":"icons/TV/dox_xinyi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dox_xinyi.png"}
-,
-    {"name":"dox_yijia","path":"icons/TV/dox_yijia.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dox_yijia.png"}
-,
-    {"name":"dox_yinglun","path":"icons/TV/dox_yinglun.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dox_yinglun.png"}
-,
     {"name":"dreamworks","path":"icons/TV/dreamworks.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dreamworks.png"}
 ,
     {"name":"elevensports2","path":"icons/TV/elevensports2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/elevensports2.png"}
@@ -2701,8 +2685,6 @@
     {"name":"elta_sports3","path":"icons/TV/elta_sports3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/elta_sports3.png"}
 ,
     {"name":"eltv","path":"icons/TV/eltv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/eltv.png"}
-,
-    {"name":"emeidianying","path":"icons/TV/emeidianying.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/emeidianying.png"}
 ,
     {"name":"ettoday","path":"icons/TV/ettoday.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/ettoday.png"}
 ,
@@ -2717,12 +2699,6 @@
     {"name":"fashionone","path":"icons/TV/fashionone.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fashionone.png"}
 ,
     {"name":"fashiontv","path":"icons/TV/fashiontv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fashiontv.png"}
-,
-    {"name":"fenghuangxianggang","path":"icons/TV/fenghuangxianggang.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fenghuangxianggang.png"}
-,
-    {"name":"fenghuangzhongwen","path":"icons/TV/fenghuangzhongwen.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fenghuangzhongwen.png"}
-,
-    {"name":"fenghuangzixun","path":"icons/TV/fenghuangzixun.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fenghuangzixun.png"}
 ,
     {"name":"fooldplanet","path":"icons/TV/fooldplanet.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/fooldplanet.png"}
 ,
