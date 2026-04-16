@@ -8,5 +8,5 @@ NAS&PT&Docker：https://github.com/verkyer/xg-icons-hub
 
 Emby：https://github.com/lige47/QuanX-icon-rule
 
-FlatNasIcon：https://github.com/Garry-QD/icon-manager/tree/main/public/icon
+图标：https://github.com/skipandgoon/tubiao
 
