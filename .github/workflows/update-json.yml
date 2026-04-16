@@ -6,7 +6,7 @@ on:
     paths:
       - 'icons/**'
       - 'tubiao/**'
-  workflow_dispatch:
+  workflow_dispatch:  # 手动触发开关（保留且生效）
 
 permissions:
   contents: write
@@ -15,31 +15,35 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 确保能提交代码
 
       # ===========================
-      # 生成 icons.json（你原版不动）
+      # 生成 icons.json（自然排序）
       # ===========================
       - name: Generate icons.json
         run: |
           mkdir -p icons
           tmp_file=$(mktemp)
 
+          # 固定目录 + 其他目录拼音/数字自然排序
           fixed_dirs=("NAS" "PT" "Docker" "Emby")
           for dir in "${fixed_dirs[@]}"; do
               if [ -d "icons/$dir" ]; then
-                  find "icons/$dir" -maxdepth 1 -type f | sort >> "$tmp_file"
+                  find "icons/$dir" -maxdepth 1 -type f | sort -V >> "$tmp_file"
               fi
           done
 
-          other_dirs=$(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort | grep -v -E "^(NAS|PT|Docker|Emby)$")
+          other_dirs=$(find icons -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort -V | grep -v -E "^(NAS|PT|Docker|Emby)$")
           for dir in $other_dirs; do
               if [ -d "icons/$dir" ]; then
-                  find "icons/$dir" -maxdepth 1 -type f | sort >> "$tmp_file"
+                  find "icons/$dir" -maxdepth 1 -type f | sort -V >> "$tmp_file"
               fi
           done
 
+          # 重新生成icons.json（强制覆盖）
           echo "{" > icons.json
           echo "  \"name\": \"MyIcons\"," >> icons.json
           echo "  \"count\": $(wc -l < "$tmp_file" | tr -d ' ')," >> icons.json
@@ -62,23 +66,22 @@ jobs:
           rm -f "$tmp_file"
 
       # ===========================
-      # 【修复数字排序】1,2,3,4...10
+      # 生成 tubiao.json（数字自然排序）
       # ===========================
       - name: Generate tubiao.json
         run: |
           tmp_file=$(mktemp)
           
+          # 强制遍历tubiao所有文件（不管是否有变化）
           if [ -d "tubiao" ]; then
-            # 关键修复：sort -n 按数字排序
-            folders=$(find tubiao -mindepth 1 -maxdepth 1 -type d | sort -n)
-            
+            folders=$(find tubiao -mindepth 1 -maxdepth 1 -type d | sort -V)
             for folder in $folders; do
-              find "$folder" -type f | sort -n >> "$tmp_file"
+              find "$folder" -type f | sort -V >> "$tmp_file"
             done
-            
-            find tubiao -maxdepth 1 -type f | sort -n >> "$tmp_file"
+            find tubiao -maxdepth 1 -type f | sort -V >> "$tmp_file"
           fi
 
+          # 重新生成tubiao.json（强制覆盖）
           echo "{" > tubiao.json
           echo "  \"name\": \"tubiao\"," >> tubiao.json
           echo "  \"count\": $(wc -l < "$tmp_file" | tr -d ' ')," >> tubiao.json
@@ -100,8 +103,16 @@ jobs:
           echo "}" >> tubiao.json
           rm -f "$tmp_file"
 
-      - name: Commit and push
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Auto update icons.json + tubiao.json"
-          add: "icons.json tubiao.json"
+      # ===========================
+      # 强制提交（手动运行必更新）
+      # ===========================
+      - name: Force commit and push
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          # 强制添加两个文件（不管是否有变化）
+          git add icons.json tubiao.json
+          # 允许空提交（确保手动运行也能生成新记录）
+          git commit -m "Force update icons.json and tubiao.json - $(date +'%Y-%m-%d %H:%M:%S')" --allow-empty
+          # 强制推送（覆盖远端，确保更新生效）
+          git push origin main --force-with-lease
