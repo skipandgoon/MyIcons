@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2377,
+  "count": 2376,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -2541,8 +2541,6 @@
     {"name":"NEXTTVZonghe","path":"icons/TV/NEXTTVZonghe.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NEXTTVZonghe.png"}
 ,
     {"name":"NHKWorld","path":"icons/TV/NHKWorld.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NHKWorld.png"}
-,
-    {"name":"NOW新闻","path":"icons/TV/NOW新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NOW新闻.png"}
 ,
     {"name":"NTD","path":"icons/TV/NTD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NTD.png"}
 ,
