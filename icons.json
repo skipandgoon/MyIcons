@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2121,
+  "count": 2122,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -2472,13 +2472,13 @@
 ,
     {"name":"NHKWorld","path":"icons/TV/NHKWorld.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NHKWorld.png"}
 ,
-    {"name":"NOW新闻台","path":"icons/TV/NOW新闻台.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/NOW新闻台.png"}
-,
     {"name":"Nickelodeon","path":"icons/TV/Nickelodeon.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Nickelodeon.png"}
 ,
     {"name":"Now剧集","path":"icons/TV/Now剧集.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Now剧集.png"}
 ,
     {"name":"Now华剧","path":"icons/TV/Now华剧.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Now华剧.png"}
+,
+    {"name":"Now新闻台","path":"icons/TV/Now新闻台.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Now新闻台.png"}
 ,
     {"name":"PDTV","path":"icons/TV/PDTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/PDTV.png"}
 ,
@@ -2703,6 +2703,8 @@
     {"name":"dreamworks","path":"icons/TV/dreamworks.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dreamworks.png"}
 ,
     {"name":"eata_sports1","path":"icons/TV/eata_sports1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/eata_sports1.png"}
+,
+    {"name":"eata_sports2","path":"icons/TV/eata_sports2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/eata_sports2.png"}
 ,
     {"name":"eata_sports3","path":"icons/TV/eata_sports3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/eata_sports3.png"}
 ,
