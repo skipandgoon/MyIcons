@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2376,
+  "count": 2308,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -2106,8 +2106,6 @@
 ,
     {"name":"CETV-4","path":"icons/TV/CETV-4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CETV-4.png"}
 ,
-    {"name":"CGTNDoc","path":"icons/TV/CGTNDoc.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTNDoc.png"}
-,
     {"name":"CGTN俄语","path":"icons/TV/CGTN俄语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN俄语.png"}
 ,
     {"name":"CGTN法语","path":"icons/TV/CGTN法语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN法语.png"}
@@ -2117,8 +2115,6 @@
     {"name":"CGTN英语","path":"icons/TV/CGTN英语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN英语.png"}
 ,
     {"name":"CGTN西语","path":"icons/TV/CGTN西语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN西语.png"}
-,
-    {"name":"CGTN记录","path":"icons/TV/CGTN记录.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN记录.png"}
 ,
     {"name":"CGTN阿语","path":"icons/TV/CGTN阿语.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/CGTN阿语.png"}
 ,
@@ -2266,22 +2262,6 @@
 ,
     {"name":"FoxSports3","path":"icons/TV/FoxSports3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/FoxSports3.png"}
 ,
-    {"name":"GDTV3","path":"icons/TV/GDTV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTV3.png"}
-,
-    {"name":"GDTV4","path":"icons/TV/GDTV4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTV4.png"}
-,
-    {"name":"GDTV6","path":"icons/TV/GDTV6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTV6.png"}
-,
-    {"name":"GDTV8","path":"icons/TV/GDTV8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTV8.png"}
-,
-    {"name":"GDTVECO","path":"icons/TV/GDTVECO.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTVECO.png"}
-,
-    {"name":"GDTVENT","path":"icons/TV/GDTVENT.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTVENT.png"}
-,
-    {"name":"GDTVMOV","path":"icons/TV/GDTVMOV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTVMOV.png"}
-,
-    {"name":"GDTVSHAO","path":"icons/TV/GDTVSHAO.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GDTVSHAO.png"}
-,
     {"name":"GMTV","path":"icons/TV/GMTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GMTV.png"}
 ,
     {"name":"GTVDramaHD","path":"icons/TV/GTVDramaHD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/GTVDramaHD.png"}
@@ -2303,18 +2283,6 @@
     {"name":"HDZHTV","path":"icons/TV/HDZHTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HDZHTV.png"}
 ,
     {"name":"HISTORY","path":"icons/TV/HISTORY.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HISTORY.png"}
-,
-    {"name":"HUBEI2","path":"icons/TV/HUBEI2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI2.png"}
-,
-    {"name":"HUBEI3","path":"icons/TV/HUBEI3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI3.png"}
-,
-    {"name":"HUBEI4","path":"icons/TV/HUBEI4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI4.png"}
-,
-    {"name":"HUBEI5","path":"icons/TV/HUBEI5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI5.png"}
-,
-    {"name":"HUBEI7","path":"icons/TV/HUBEI7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI7.png"}
-,
-    {"name":"HUBEI8","path":"icons/TV/HUBEI8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HUBEI8.png"}
 ,
     {"name":"HZTV","path":"icons/TV/HZTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/HZTV.png"}
 ,
@@ -2450,22 +2418,6 @@
 ,
     {"name":"LNSY1","path":"icons/TV/LNSY1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNSY1.png"}
 ,
-    {"name":"LNTV2","path":"icons/TV/LNTV2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV2.png"}
-,
-    {"name":"LNTV3","path":"icons/TV/LNTV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV3.png"}
-,
-    {"name":"LNTV5","path":"icons/TV/LNTV5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV5.png"}
-,
-    {"name":"LNTV6","path":"icons/TV/LNTV6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV6.png"}
-,
-    {"name":"LNTV7","path":"icons/TV/LNTV7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV7.png"}
-,
-    {"name":"LNTV8","path":"icons/TV/LNTV8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV8.png"}
-,
-    {"name":"LNTV-FINANCE","path":"icons/TV/LNTV-FINANCE.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV-FINANCE.png"}
-,
-    {"name":"LNTV-SPORT","path":"icons/TV/LNTV-SPORT.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LNTV-SPORT.png"}
-,
     {"name":"LQTV","path":"icons/TV/LQTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LQTV.png"}
 ,
     {"name":"LSTIME","path":"icons/TV/LSTIME.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/LSTIME.png"}
@@ -2560,8 +2512,6 @@
 ,
     {"name":"PiliPuppet","path":"icons/TV/PiliPuppet.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/PiliPuppet.png"}
 ,
-    {"name":"PublicTV","path":"icons/TV/PublicTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/PublicTV.png"}
-,
     {"name":"PublicTV2","path":"icons/TV/PublicTV2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/PublicTV2.png"}
 ,
     {"name":"PublicTV3HD","path":"icons/TV/PublicTV3HD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/PublicTV3HD.png"}
@@ -2581,14 +2531,6 @@
     {"name":"QTV6","path":"icons/TV/QTV6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QTV6.png"}
 ,
     {"name":"QZTV","path":"icons/TV/QZTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QZTV.png"}
-,
-    {"name":"QZTV-1","path":"icons/TV/QZTV-1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QZTV-1.png"}
-,
-    {"name":"QZTV-2","path":"icons/TV/QZTV-2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QZTV-2.png"}
-,
-    {"name":"QZTV-3","path":"icons/TV/QZTV-3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QZTV-3.png"}
-,
-    {"name":"QZTV-4","path":"icons/TV/QZTV-4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/QZTV-4.png"}
 ,
     {"name":"RTDoc","path":"icons/TV/RTDoc.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/RTDoc.png"}
 ,
@@ -2670,23 +2612,9 @@
 ,
     {"name":"VOA美国之音","path":"icons/TV/VOA美国之音.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VOA美国之音.png"}
 ,
-    {"name":"VideolandDrama","path":"icons/TV/VideolandDrama.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandDrama.png"}
-,
-    {"name":"VideolandJapanese","path":"icons/TV/VideolandJapanese.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandJapanese.png"}
-,
-    {"name":"VideolandMaxTV","path":"icons/TV/VideolandMaxTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandMaxTV.png"}
-,
-    {"name":"VideolandMovies","path":"icons/TV/VideolandMovies.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandMovies.png"}
-,
-    {"name":"VideolandOnTV","path":"icons/TV/VideolandOnTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandOnTV.png"}
-,
-    {"name":"VideolandSportsHD","path":"icons/TV/VideolandSportsHD.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/VideolandSportsHD.png"}
-,
     {"name":"Viutv","path":"icons/TV/Viutv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Viutv.png"}
 ,
     {"name":"Viutv6","path":"icons/TV/Viutv6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/Viutv6.png"}
-,
-    {"name":"WETV","path":"icons/TV/WETV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WETV.png"}
 ,
     {"name":"WFGXTV","path":"icons/TV/WFGXTV.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WFGXTV.png"}
 ,
@@ -2699,20 +2627,6 @@
     {"name":"WFTV3","path":"icons/TV/WFTV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WFTV3.png"}
 ,
     {"name":"WFTV4","path":"icons/TV/WFTV4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WFTV4.png"}
-,
-    {"name":"WHTV1","path":"icons/TV/WHTV1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV1.png"}
-,
-    {"name":"WHTV2","path":"icons/TV/WHTV2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV2.png"}
-,
-    {"name":"WHTV3","path":"icons/TV/WHTV3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV3.png"}
-,
-    {"name":"WHTV4","path":"icons/TV/WHTV4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV4.png"}
-,
-    {"name":"WHTV5","path":"icons/TV/WHTV5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV5.png"}
-,
-    {"name":"WHTV6","path":"icons/TV/WHTV6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV6.png"}
-,
-    {"name":"WHTV7","path":"icons/TV/WHTV7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WHTV7.png"}
 ,
     {"name":"WILD PLANET","path":"icons/TV/WILD PLANET.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/WILD PLANET.png"}
 ,
@@ -2740,18 +2654,6 @@
 ,
     {"name":"catchplay","path":"icons/TV/catchplay.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/catchplay.png"}
 ,
-    {"name":"cdtv1","path":"icons/TV/cdtv1.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv1.png"}
-,
-    {"name":"cdtv2","path":"icons/TV/cdtv2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv2.png"}
-,
-    {"name":"cdtv3","path":"icons/TV/cdtv3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv3.png"}
-,
-    {"name":"cdtv4","path":"icons/TV/cdtv4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv4.png"}
-,
-    {"name":"cdtv5","path":"icons/TV/cdtv5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv5.png"}
-,
-    {"name":"cdtv6","path":"icons/TV/cdtv6.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cdtv6.png"}
-,
     {"name":"channelnewsasia","path":"icons/TV/channelnewsasia.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/channelnewsasia.png"}
 ,
     {"name":"channelv","path":"icons/TV/channelv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/channelv.png"}
@@ -2767,8 +2669,6 @@
     {"name":"cmusic","path":"icons/TV/cmusic.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cmusic.png"}
 ,
     {"name":"cnex","path":"icons/TV/cnex.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cnex.png"}
-,
-    {"name":"cqccn","path":"icons/TV/cqccn.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/cqccn.png"}
 ,
     {"name":"dalitv","path":"icons/TV/dalitv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/dalitv.png"}
 ,
@@ -2804,7 +2704,7 @@
 ,
     {"name":"emeidianying","path":"icons/TV/emeidianying.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/emeidianying.png"}
 ,
-    {"name":"etoday","path":"icons/TV/etoday.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/etoday.png"}
+    {"name":"ettoday","path":"icons/TV/ettoday.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/ettoday.png"}
 ,
     {"name":"euronews","path":"icons/TV/euronews.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/euronews.png"}
 ,
@@ -2858,10 +2758,6 @@
 ,
     {"name":"huayi_yingju","path":"icons/TV/huayi_yingju.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/huayi_yingju.png"}
 ,
-    {"name":"hubei","path":"icons/TV/hubei.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/hubei.png"}
-,
-    {"name":"hunan","path":"icons/TV/hunan.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/hunan.png"}
-,
     {"name":"itv","path":"icons/TV/itv.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/itv.png"}
 ,
     {"name":"jiajiakt","path":"icons/TV/jiajiakt.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/jiajiakt.png"}
@@ -2871,8 +2767,6 @@
     {"name":"jiangxi","path":"icons/TV/jiangxi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/jiangxi.png"}
 ,
     {"name":"jilin","path":"icons/TV/jilin.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/jilin.png"}
-,
-    {"name":"jinwenjiang","path":"icons/TV/jinwenjiang.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/jinwenjiang.png"}
 ,
     {"name":"jinyingjishi","path":"icons/TV/jinyingjishi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/jinyingjishi.png"}
 ,
@@ -2922,25 +2816,9 @@
 ,
     {"name":"sansha","path":"icons/TV/sansha.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sansha.png"}
 ,
-    {"name":"sctv2","path":"icons/TV/sctv2.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv2.png"}
-,
-    {"name":"sctv3","path":"icons/TV/sctv3.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv3.png"}
-,
-    {"name":"sctv4","path":"icons/TV/sctv4.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv4.png"}
-,
-    {"name":"sctv5","path":"icons/TV/sctv5.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv5.png"}
-,
-    {"name":"sctv7","path":"icons/TV/sctv7.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv7.png"}
-,
-    {"name":"sctv8","path":"icons/TV/sctv8.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv8.png"}
-,
-    {"name":"sctv9","path":"icons/TV/sctv9.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/sctv9.png"}
-,
     {"name":"shandong","path":"icons/TV/shandong.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/shandong.png"}
 ,
     {"name":"shanghaidongfangyingshi","path":"icons/TV/shanghaidongfangyingshi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/shanghaidongfangyingshi.png"}
-,
-    {"name":"shanghaijishi","path":"icons/TV/shanghaijishi.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/shanghaijishi.png"}
 ,
     {"name":"shanghaiwaiyu","path":"icons/TV/shanghaiwaiyu.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/shanghaiwaiyu.png"}
 ,
@@ -3036,8 +2914,6 @@
 ,
     {"name":"上海都市剧场","path":"icons/TV/上海都市剧场.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上海都市剧场.png"}
 ,
-    {"name":"上视新闻","path":"icons/TV/上视新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/上视新闻.png"}
-,
     {"name":"世界地理","path":"icons/TV/世界地理.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/世界地理.png"}
 ,
     {"name":"东南卫视","path":"icons/TV/东南卫视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/东南卫视.png"}
@@ -3045,8 +2921,6 @@
     {"name":"东安综合频道","path":"icons/TV/东安综合频道.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/东安综合频道.png"}
 ,
     {"name":"东方卫视","path":"icons/TV/东方卫视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/东方卫视.png"}
-,
-    {"name":"东方影视","path":"icons/TV/东方影视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/东方影视.png"}
 ,
     {"name":"东方财经","path":"icons/TV/东方财经.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/东方财经.png"}
 ,
@@ -3365,8 +3239,6 @@
     {"name":"南方卫视","path":"icons/TV/南方卫视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/南方卫视.png"}
 ,
     {"name":"卡酷动画","path":"icons/TV/卡酷动画.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/卡酷动画.png"}
-,
-    {"name":"卡酷少儿","path":"icons/TV/卡酷少儿.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/卡酷少儿.png"}
 ,
     {"name":"卫生健康","path":"icons/TV/卫生健康.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/卫生健康.png"}
 ,
@@ -4262,8 +4134,6 @@
 ,
     {"name":"爱上4K","path":"icons/TV/爱上4K.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/爱上4K.png"}
 ,
-    {"name":"爱尔达娱乐台","path":"icons/TV/爱尔达娱乐台.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/爱尔达娱乐台.png"}
-,
     {"name":"爱看导视","path":"icons/TV/爱看导视.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/爱看导视.png"}
 ,
     {"name":"环球奇观","path":"icons/TV/环球奇观.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/环球奇观.png"}
@@ -4332,13 +4202,9 @@
 ,
     {"name":"福建体育","path":"icons/TV/福建体育.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建体育.png"}
 ,
-    {"name":"福建公共","path":"icons/TV/福建公共.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建公共.png"}
-,
     {"name":"福建少儿","path":"icons/TV/福建少儿.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建少儿.png"}
 ,
     {"name":"福建教育","path":"icons/TV/福建教育.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建教育.png"}
-,
-    {"name":"福建文体","path":"icons/TV/福建文体.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建文体.png"}
 ,
     {"name":"福建新闻","path":"icons/TV/福建新闻.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/福建新闻.png"}
 ,
@@ -4667,8 +4533,6 @@
     {"name":"靖天欢乐","path":"icons/TV/靖天欢乐.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/靖天欢乐.png"}
 ,
     {"name":"靖天电影","path":"icons/TV/靖天电影.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/靖天电影.png"}
-,
-    {"name":"靖天电影台","path":"icons/TV/靖天电影台.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/靖天电影台.png"}
 ,
     {"name":"靖天综合","path":"icons/TV/靖天综合.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/靖天综合.png"}
 ,
