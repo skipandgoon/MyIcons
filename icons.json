@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2213,
+  "count": 2214,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -171,6 +171,8 @@
     {"name":"TTG","path":"icons/PT/TTG.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/TTG.png"}
 ,
     {"name":"Tjupt","path":"icons/PT/Tjupt.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/Tjupt.png"}
+,
+    {"name":"UB","path":"icons/PT/UB.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/UB.png"}
 ,
     {"name":"UBits","path":"icons/PT/UBits.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/PT/UBits.png"}
 ,
