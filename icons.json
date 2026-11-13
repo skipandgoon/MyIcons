@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2229,
+  "count": 2235,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -4459,5 +4459,17 @@
     {"name":"龙祥时代","path":"icons/TV/龙祥时代.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/龙祥时代.png"}
 ,
     {"name":"龙祥电影","path":"icons/TV/龙祥电影.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/龙祥电影.png"}
+,
+    {"name":"baimiao","path":"icons/more/baimiao.ico","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/baimiao.ico"}
+,
+    {"name":"iLovePDF","path":"icons/more/iLovePDF.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/iLovePDF.png"}
+,
+    {"name":"mojie","path":"icons/more/mojie.ico","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/mojie.ico"}
+,
+    {"name":"tempmail","path":"icons/more/tempmail.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/tempmail.png"}
+,
+    {"name":"tuchuang","path":"icons/more/tuchuang.ico","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/tuchuang.ico"}
+,
+    {"name":"txtnovel","path":"icons/more/txtnovel.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/txtnovel.png"}
   ]
 }
