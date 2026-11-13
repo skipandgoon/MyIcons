@@ -1,6 +1,6 @@
 {
   "name": "MyIcons",
-  "count": 2235,
+  "count": 2236,
   "icons": [
     {"name":"Alpine","path":"icons/NAS/Alpine.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/NAS/Alpine.png"}
 ,
@@ -4471,5 +4471,7 @@
     {"name":"tuchuang","path":"icons/more/tuchuang.ico","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/tuchuang.ico"}
 ,
     {"name":"txtnovel","path":"icons/more/txtnovel.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/txtnovel.png"}
+,
+    {"name":"yanxuan","path":"icons/more/yanxuan.png","url":"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/more/yanxuan.png"}
   ]
 }
